@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🐾 PetShop Tia Se
 
-## Getting Started
+Site institucional responsivo desenvolvido com Next.js, React e Tailwind CSS para o PetShop Tia Se.
 
-First, run the development server:
+## 🌐 Deploy
+
+Vercel
+
+## 🚀 Tecnologias Utilizadas
+
+- Next.js
+- React
+- Tailwind CSS
+- JavaScript
+
+## ✨ Funcionalidades
+
+- Navegação responsiva para desktop e mobile
+- Menu mobile interativo
+- Seção de serviços
+- Galeria de fotos dos pets
+- Vídeo institucional
+- Integração direta com WhatsApp
+- Link para Instagram
+- Localização via Google Maps
+- Design moderno e responsivo
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido para oferecer uma boa experiência em:
+
+- Desktop
+- Tablet
+- Smartphone
+
+## 📂 Estrutura do Projeto
+
+```txt
+src/
+ ├─ app/
+ ├─ components/
+public/
+ ├─ images/
+ ├─ videos/
+```
+
+## ▶️ Executando Localmente
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/JRoberson23/petshop-tiase.git
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```txt
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👨‍💻 Desenvolvedor
 
-## Learn More
+Roberson Dev
 
-To learn more about Next.js, take a look at the following resources:
+Portfólio:
+https://roberson-dev.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+LinkedIn:
+https://www.linkedin.com/in/roberson-junior/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projeto desenvolvido para fins institucionais do PetShop Tia Se.
