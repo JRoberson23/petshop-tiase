@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import PawAnimation from "./PawAnimation";
-    
+
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -95,7 +95,7 @@ export default function Header() {
                         Início
                     </a>
 
-                    <a href="#servico"
+                    <a href="#servicos"
                         onClick={() => setIsMenuOpen(false)}
                         className="hover:text-pink-200 transition"
                     >
