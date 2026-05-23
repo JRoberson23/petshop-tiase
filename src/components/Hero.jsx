@@ -26,6 +26,7 @@ export default function Hero() {
             <a
                 href="https://wa.me/5511996721823?text=Olá!%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20horário%20para%20meu%20pet."
                 target="_blank"
+                title="Agendar banho e tosa pelo WhatsApp"
                 className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 transition duration-300"
             >
                 <FaWhatsapp className="text-2xl" />

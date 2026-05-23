@@ -14,7 +14,6 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "PetShop Tia Se",
   description: "Banho, tosa e cuidados para seu pet com muito amor e dedicação. Agende pelo WhatsApp!",
-  // Adicione essas linhas para melhorar o compartilhamento
   generator: "PetShop Tia Se",
   applicationName: "PetShop Tia Se",
   authors: [{ name: "Seu Nome" }],
@@ -34,12 +33,15 @@ export const metadata = {
     locale: "pt_BR",
     type: "website",
   },
+  verification: {
+    google: "FvV2w6d_rE10Uq7EFfgvoXw5cs6yUfG3LROYsup6VLg"  // ← Só o código que está dentro do content
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="pt-BR"  // Mude de "en" para "pt-BR"
+      lang="pt-BR"  
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
