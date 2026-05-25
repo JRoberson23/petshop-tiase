@@ -16,7 +16,7 @@ export const metadata = {
   description: "Banho, tosa e cuidados para seu pet com muito amor e dedicação. Agende pelo WhatsApp!",
   generator: "PetShop Tia Se",
   applicationName: "PetShop Tia Se",
-  authors: [{ name: "Seu Nome" }],
+  authors: [{ name: "Roberson Dev" }],
   keywords: ["petshop", "banho e tosa", "pet", "cuidados animais"],
   openGraph: {
     title: "PetShop Tia Se",
@@ -34,7 +34,7 @@ export const metadata = {
     type: "website",
   },
   verification: {
-    google: "FvV2w6d_rE10Uq7EFfgvoXw5cs6yUfG3LROYsup6VLg"  // ← Só o código que está dentro do content
+    google: "FvV2w6d_rE10Uq7EFfgvoXw5cs6yUfG3LROYsup6VLg"
   },
 };
 
