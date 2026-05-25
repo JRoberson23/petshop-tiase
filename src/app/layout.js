@@ -41,24 +41,24 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="pt-BR"  
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-
-      <head>
-          {/** Google tag (gtag.js) **/}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KS7VFS2Z06"></script>
-          <script>
+    <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col">
+        {/* Google Analytics */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-KS7VFS2Z06"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'G-KS7VFS2Z06');
-          </script>
-        </head>
-
-      <body className="min-h-full flex flex-col">{children}</body>
+          `}
+        </Script>
+        {children}
+      </body>
     </html>
   );
 }
