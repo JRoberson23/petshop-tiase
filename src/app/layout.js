@@ -44,6 +44,24 @@ export default function RootLayout({ children }) {
       lang="pt-BR"  
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+
+      <head>
+        {/* Google Analytics - PetShop Tia Se */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-GY46S7X49P"
+          strategy="afterInteractive"
+        />
+        <script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GY46S7X49P');
+          `}
+        </script>
+        </head>
+
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
