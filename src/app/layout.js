@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,20 +47,15 @@ export default function RootLayout({ children }) {
     >
 
       <head>
-        {/* Google Analytics - PetShop Tia Se */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-GY46S7X49P"
-          strategy="afterInteractive"
-        />
-        <script id="google-analytics" strategy="afterInteractive">
-          {`
+          {/** Google tag (gtag.js) **/}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KS7VFS2Z06"></script>
+          <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-GY46S7X49P');
-          `}
-        </script>
+
+            gtag('config', 'G-KS7VFS2Z06');
+          </script>
         </head>
 
       <body className="min-h-full flex flex-col">{children}</body>
