@@ -13,12 +13,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "PetShop Tia Se",
-  description: "Banho, tosa e cuidados para seu pet com muito amor e dedicação. Agende pelo WhatsApp!",
+  metadataBase: new URL("https://petshop-tiase.vercel.app"),
+  title: "PetShop Tia Se | Banho e Tosa em São Paulo",
+  icons: {
+    icon: "/favicon.png",
+  },
+  description: "Banho, tosa, hidratação, tosa higiênica e cuidados especiais para cães e gatos em São Paulo. Agende pelo WhatsApp.",
   generator: "PetShop Tia Se",
   applicationName: "PetShop Tia Se",
   authors: [{ name: "Roberson Dev" }],
-  keywords: ["petshop", "banho e tosa", "pet", "cuidados animais"],
+  keywords: [
+    "pet shop são paulo",
+    "banho e tosa são paulo",
+    "petshop tia se",
+    "hidratação pet",
+    "tosa higiênica",
+    "estética animal",
+    "remoção de nós",
+    "pet shop jardim são josé",
+  ],
   openGraph: {
     title: "PetShop Tia Se",
     description: "Banho, tosa e cuidados para seu pet com muito amor e dedicação",
