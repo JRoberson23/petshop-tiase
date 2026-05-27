@@ -15,9 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata = {
   metadataBase: new URL("https://petshop-tiase.vercel.app"),
   title: "PetShop Tia Se | Banho e Tosa em São Paulo",
-  icons: {
-    icon: "/favicon.png",
-  },
   description: "Banho, tosa, hidratação, tosa higiênica e cuidados especiais para cães e gatos em São Paulo. Agende pelo WhatsApp.",
   generator: "PetShop Tia Se",
   applicationName: "PetShop Tia Se",
